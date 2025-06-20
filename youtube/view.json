@@ -1,0 +1,41 @@
+[
+    {
+        "type":"open_url",
+        "url":"{link}",
+        "hint":"open url",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"condition",
+        "selector":".ytp-play-button[data-title-no-tooltip='Play']",
+        "true":  {
+            "type":"click",
+            "selector":".ytp-play-button[data-title-no-tooltip='Play']",
+            "hint":"playing the video",
+            "action":""
+        },
+        "false":{
+            "type":"live_mouse_and_scroll",
+            "min_time":1,
+            "max_time":2,
+            "hint":"staying active on the page",
+            "action":""
+        },
+        "hint":"checking if video is playing",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":"view"
+    }
+]

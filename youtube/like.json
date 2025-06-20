@@ -1,0 +1,30 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":5,
+        "max_time":10,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[aria-pressed='false']",
+        "hint":"clicking on like button",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    
+    {
+        "type":"wait_for_selector",
+        "selector":"#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[aria-pressed='true']",
+        "timeout":3,
+        "hint":"validating like action",
+        "action":"like"
+    }
+]

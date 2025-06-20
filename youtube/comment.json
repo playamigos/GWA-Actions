@@ -1,0 +1,41 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"scroll_to",
+        "selector":"#comments",
+        "hint":"scrolling to comments",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"#comments #simple-box #placeholder-area",
+        "hint":"clicking on comment input area",
+        "action":""
+    },
+    {
+        "type":"text_input",
+        "selector":"#comments #comment-dialog #commentbox #creation-box #contenteditable-textarea #contenteditable-root",
+        "text":"{comment_text}",
+        "hint":"typing comment text",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"#comments #comment-dialog #commentbox #footer #buttons button[aria-label='Comment']",
+        "hint":"submitting comment",
+        "action":"comment"
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    }
+]

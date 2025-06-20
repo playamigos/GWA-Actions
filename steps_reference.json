@@ -1,0 +1,79 @@
+[
+    {
+        "type":"open_url",
+        "url":"{url}",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"button[aria-label='Like']",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"scroll_to",
+        "selector":"button[aria-label='Like']",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"text_input",
+        "selector":"input[aria-label='Add a comment...']",
+        "text":"{type_text}",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"mouse_move",
+        "selector":"button[aria-label='Comment']",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"key_down",
+        "key":"{key}",
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"wait",
+        "min_time":1,
+        "max_time":2,
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"wait_for_selector",
+        "selector":"input[aria-label='Add a comment...']",
+        "timeout":1,
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":2,
+        "hint":"",
+        "action":""
+    },
+    {
+        "type":"condition",
+        "selector":".ytp-play-button[data-title-no-tooltip='Play']",
+        "true":  {
+            "type":"click",
+            "selector":".ytp-play-button[data-title-no-tooltip='Play']",
+            "hint":"playing the video",
+            "action":""
+        },
+        "false":{
+            "type":"live_mouse_and_scroll",
+            "min_time":1,
+            "max_time":2,
+            "hint":"staying active on the page",
+            "action":""
+        },
+        "hint":"checking if video is playing",
+        "action":""
+    }
+]
