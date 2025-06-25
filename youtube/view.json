@@ -33,8 +33,8 @@
     },
     {
         "type":"live_mouse_and_scroll",
-        "min_time":1,
-        "max_time":3,
+        "min_time":10,
+        "max_time":15,
         "hint":"staying active on the page",
         "action":"view"
     }
