@@ -85,8 +85,8 @@
     },
     {
         "type":"live_mouse_and_scroll",
-        "min_time":10,
-        "max_time":15,
+        "min_time":"{watch_min}",
+        "max_time":"{watch_max}",
         "hint":"staying active on the page",
         "action":"view"
     }
