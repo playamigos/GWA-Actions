@@ -8,14 +8,14 @@
     },
     {
         "type":"click",
-        "selector":"body > div.x1n2onr6.xzkaem6 > div.x9f619.x1n2onr6.x1ja2u2z > div > div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1n2onr6.x1qrby5j.x1jfb8zj > div > div > div > div > div.xb88tzc.xw2csxc.x1odjw0f.x5fp0pe.x1qjc9v5.xjbqb8w.xjwep3j.x1t39747.x1wcsgtt.x1pczhz8.xr1yuqi.x11t971q.x4ii5y1.xvc5jky.x15h9jz8.x47corl.xh8yej3.xir0mxb.x1juhsu6 > div > article > div > div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum5.xdt5ytf.x1iyjqo2.x5wqa0o.xln7xf2.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x65f84u.x1vq45kp.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1n2onr6.x11njtxf > div > div > div.x78zum5.xdt5ytf.x1q2y9iw.x1n2onr6.xh8yej3.x9f619.x1iyjqo2.x13lttk3.x1t7ytsu.xpilrb4.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1b5io7h > section.x5ur3kl.x13fuv20.x178xt8z.x1roi4f4.x2lah0s.xvs91rp.xl56j7k.x17ydfre.x1n2onr6.x10b6aqq.x1yrsyyn.x1hrcb2b.xv54qhq > div > form > div > textarea",
+        "selector":"form textarea[aria-label='Add a comment…']",
         "hint":"clicking on comment input area",
         "action":"",
         "timeout":10000
     },
     {
         "type":"text_input",
-        "selector":"body > div.x1n2onr6.xzkaem6 > div.x9f619.x1n2onr6.x1ja2u2z > div > div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1n2onr6.x1qrby5j.x1jfb8zj > div > div > div > div > div.xb88tzc.xw2csxc.x1odjw0f.x5fp0pe.x1qjc9v5.xjbqb8w.xjwep3j.x1t39747.x1wcsgtt.x1pczhz8.xr1yuqi.x11t971q.x4ii5y1.xvc5jky.x15h9jz8.x47corl.xh8yej3.xir0mxb.x1juhsu6 > div > article > div > div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum5.xdt5ytf.x1iyjqo2.x5wqa0o.xln7xf2.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x65f84u.x1vq45kp.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1n2onr6.x11njtxf > div > div > div.x78zum5.xdt5ytf.x1q2y9iw.x1n2onr6.xh8yej3.x9f619.x1iyjqo2.x13lttk3.x1t7ytsu.xpilrb4.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1b5io7h > section.x5ur3kl.x13fuv20.x178xt8z.x1roi4f4.x2lah0s.xvs91rp.xl56j7k.x17ydfre.x1n2onr6.x10b6aqq.x1yrsyyn.x1hrcb2b.xv54qhq > div > form > div > textarea",
+        "selector":"form textarea[aria-label='Add a comment…']",
         "text":"{comment_text}",
         "hint":"typing comment text",
         "action":"",
@@ -23,7 +23,7 @@
     },
     {
         "type":"click",
-        "selector":"body > div.x1n2onr6.xzkaem6 > div.x9f619.x1n2onr6.x1ja2u2z > div > div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1n2onr6.x1qrby5j.x1jfb8zj > div > div > div > div > div.xb88tzc.xw2csxc.x1odjw0f.x5fp0pe.x1qjc9v5.xjbqb8w.xjwep3j.x1t39747.x1wcsgtt.x1pczhz8.xr1yuqi.x11t971q.x4ii5y1.xvc5jky.x15h9jz8.x47corl.xh8yej3.xir0mxb.x1juhsu6 > div > article > div > div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum5.xdt5ytf.x1iyjqo2.x5wqa0o.xln7xf2.xk390pu.xdj266r.x14z9mp.xat24cr.x1lziwak.x65f84u.x1vq45kp.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1n2onr6.x11njtxf > div > div > div.x78zum5.xdt5ytf.x1q2y9iw.x1n2onr6.xh8yej3.x9f619.x1iyjqo2.x13lttk3.x1t7ytsu.xpilrb4.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1b5io7h > section.x5ur3kl.x13fuv20.x178xt8z.x1roi4f4.x2lah0s.xvs91rp.xl56j7k.x17ydfre.x1n2onr6.x10b6aqq.x1yrsyyn.x1hrcb2b.xv54qhq > div > form > div > div.x13fj5qh > div",
+        "selector":"form textarea[aria-label='Add a comment…'] + *",
         "hint":"submitting comment",
         "action":"comment",
         "timeout":10000
