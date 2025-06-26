@@ -22,7 +22,7 @@
     
     {
         "type":"wait_for_selector",
-        "selector":"#columns #primary #primary-inner #above-the-fold #actions #menu #top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[aria-pressed='true']",
+        "selector":"#columns #primary #primary-inner #above-the-fold #actions #menu #top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[title='Unlike']",
         "timeout":3,
         "hint":"validating like action",
         "action":"like"

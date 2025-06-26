@@ -14,6 +14,58 @@
     },
     {
         "type":"condition",
+        "selector":".ytp-ad-player-overlay-layout__player-card-container",
+        "true": {
+            "type":"live_mouse_and_scroll",
+            "min_time":19,
+            "max_time":20,
+            "hint":"waiting for ad to finish",
+            "action":""
+        },
+        "false":{
+            "type":"live_mouse_and_scroll",
+            "min_time":0,
+            "max_time":1,
+            "hint":"skipping",
+            "action":""
+        },
+        "hint":"checking if video is playing",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":".ytp-skip-ad-button",
+        "hint":"skipping the video",
+        "action":""
+    },
+    {
+        "type":"condition",
+        "selector":".ytp-ad-player-overlay-layout__player-card-container",
+        "true": {
+            "type":"live_mouse_and_scroll",
+            "min_time":19,
+            "max_time":20,
+            "hint":"waiting for ad to finish",
+            "action":""
+        },
+        "false":{
+            "type":"live_mouse_and_scroll",
+            "min_time":0,
+            "max_time":1,
+            "hint":"skipping",
+            "action":""
+        },
+        "hint":"checking if video is playing",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":".ytp-skip-ad-button",
+        "hint":"skipping the video",
+        "action":""
+    },
+    {
+        "type":"condition",
         "selector":".ytp-play-button[data-title-no-tooltip='Play']",
         "true":  {
             "type":"click",
