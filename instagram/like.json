@@ -10,7 +10,8 @@
         "type":"click",
         "selector":"div[role='dialog'] svg[aria-label='Like']",
         "hint":"clicking on like button",
-        "action":""
+        "action":"",
+        "timeout":10000
     },
     {
         "type":"live_mouse_and_scroll",
@@ -23,7 +24,7 @@
     {
         "type":"wait_for_selector",
         "selector":"div[role='dialog'] svg[aria-label='Unlike']",
-        "timeout":3,
+        "timeout":10000,
         "hint":"validating like action",
         "action":"like"
     }

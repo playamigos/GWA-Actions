@@ -10,7 +10,8 @@
         "type":"click",
         "selector":"#columns #primary #primary-inner #above-the-fold #actions #menu #top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[aria-pressed='false']",
         "hint":"clicking on like button",
-        "action":""
+        "action":"",
+        "timeout":10000
     },
     {
         "type":"live_mouse_and_scroll",
@@ -23,7 +24,7 @@
     {
         "type":"wait_for_selector",
         "selector":"#columns #primary #primary-inner #above-the-fold #actions #menu #top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button[title='Unlike']",
-        "timeout":3,
+        "timeout":10000,
         "hint":"validating like action",
         "action":"like"
     }
