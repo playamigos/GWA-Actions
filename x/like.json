@@ -1,0 +1,31 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":5,
+        "max_time":10,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"div[aria-label='Timeline: Conversation'] div[data-testid='cellInnerDiv']:first-of-type>div>div>article[data-testid='tweet'] button[data-testid='like'][role='button']",
+        "hint":"clicking on like button",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":3,
+        "max_time":5,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    
+    {
+        "type":"wait_for_selector",
+        "selector":"div[aria-label='Timeline: Conversation'] div[data-testid='cellInnerDiv']:first-of-type>div>div>article[data-testid='tweet'] button[data-testid='unlike'][role='button']",
+        "timeout":10000,
+        "hint":"validating like action",
+        "action":"like"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"div[data-testid='inline_reply_offscreen'] div[data-testid='tweetTextarea_0']",
+        "hint":"clicking on comment input area",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"text_input",
+        "selector":"div[data-testid='inline_reply_offscreen'] div[data-testid='tweetTextarea_0']",
+        "text":"{comment_text}",
+        "hint":"typing comment text",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"click",
+        "selector":"div[data-testid='inline_reply_offscreen'] button[data-testid='tweetButtonInline']",
+        "hint":"submitting comment",
+        "action":"comment",
+        "timeout":10000
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    }
+]
