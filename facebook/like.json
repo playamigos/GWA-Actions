@@ -1,0 +1,31 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":5,
+        "max_time":10,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"div[role='dialog'] span[data-ad-rendering-role='like_button']:not([style]), div[role='dialog'] span[data-ad-rendering-role='like_button'][style='']",
+        "hint":"clicking on like button",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":3,
+        "max_time":5,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    
+    {
+        "type":"wait_for_selector",
+        "selector":"div[role='dialog'] span[data-ad-rendering-role='like_button']:not([style]), div[role='dialog'] span[data-ad-rendering-role='like_button'][style*='--reaction-like']",
+        "timeout":10000,
+        "hint":"validating like action",
+        "action":"like"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"click",
+        "selector":"div[role='dialog'] div[aria-label='Write a comment…']",
+        "hint":"clicking on comment input area",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"text_input",
+        "selector":"div[role='dialog'] div[aria-label='Write a comment…']",
+        "text":"{comment_text}",
+        "hint":"typing comment text",
+        "action":"",
+        "timeout":10000
+    },
+    {
+        "type":"click",
+        "selector":"div[role='dialog'] div[aria-label='Comment'][role='button']",
+        "hint":"submitting comment",
+        "action":"comment",
+        "timeout":10000
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":1,
+        "max_time":3,
+        "hint":"staying active on the page",
+        "action":""
+    }
+]

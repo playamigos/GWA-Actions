@@ -1,0 +1,22 @@
+[
+    {
+        "type":"open_url",
+        "url":"{link}",
+        "hint":"open url",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":3,
+        "max_time":5,
+        "hint":"staying active on the page",
+        "action":""
+    },
+    {
+        "type":"live_mouse_and_scroll",
+        "min_time":"{watch_min}",
+        "max_time":"{watch_max}",
+        "hint":"staying active on the page",
+        "action":"view"
+    }
+]
