@@ -10,26 +10,30 @@
         "type":"scroll_to",
         "selector":"#comments",
         "hint":"scrolling to comments",
-        "action":""
+        "action":"",
+        "timeout":10000
     },
     {
         "type":"click",
         "selector":"#comments #simple-box #placeholder-area",
         "hint":"clicking on comment input area",
-        "action":""
+        "action":"",
+        "timeout":10000
     },
     {
         "type":"text_input",
         "selector":"#comments #comment-dialog #commentbox #creation-box #contenteditable-textarea #contenteditable-root",
         "text":"{comment_text}",
         "hint":"typing comment text",
-        "action":""
+        "action":"",
+        "timeout":10000
     },
     {
         "type":"click",
         "selector":"#comments #comment-dialog #commentbox #footer #buttons button[aria-label='Comment']",
         "hint":"submitting comment",
-        "action":"comment"
+        "action":"comment",
+        "timeout":10000
     },
     {
         "type":"live_mouse_and_scroll",
