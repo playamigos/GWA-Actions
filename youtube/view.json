@@ -24,8 +24,8 @@
         },
         "false":{
             "type":"live_mouse_and_scroll",
-            "min_time":0,
-            "max_time":1,
+            "min_time":1,
+            "max_time":2,
             "hint":"skipping",
             "action":""
         },
@@ -51,8 +51,8 @@
         },
         "false":{
             "type":"live_mouse_and_scroll",
-            "min_time":0,
-            "max_time":1,
+            "min_time":1,
+            "max_time":2,
             "hint":"skipping",
             "action":""
         },
